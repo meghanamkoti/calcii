@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+<body style="background-color:powderblue;">
+<style>
+input{
+	border:none;
+	color:red;
+	width:100%;
+	padding:10px 35px;
+	align:center;
+	font-size:20px;
+	}
+	</style>
+<center>
+<form name="CALCULATOR" >
+	<table>
+<tr>
+<td colspan="4">
+<input type = "text"  name="display">
+</td>
+</tr>
+<tr>
+<td><input type="button" value="1"onclick="CALCULATOR.display.value+='1'"></td>
+<td><input type="button" value="2"onclick="CALCULATOR.display.value+='2'"></td>
+<td><input type="button" value="3"onclick="CALCULATOR.display.value+='3'"></td>
+<td><input type="button" value="+"onclick="CALCULATOR.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input type="button" value="4"onclick="CALCULATOR.display.value+='4'"></td>
+<td><input type="button" value="5"onclick="CALCULATOR.display.value+='5'"></td>
+<td><input type="button" value="6"onclick="CALCULATOR.display.value+='6'"></td>
+<td><input type="button" value="-"onclick="CALCULATOR.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input type="button" value="7"onclick="CALCULATOR.display.value+='7'"></td>
+<td><input type="button" value="8"onclick="CALCULATOR.display.value+='8'"></td>
+<td><input type="button" value="9"onclick="CALCULATOR.display.value+='9'"></td>
+<td><input type="button" value="*"onclick="CALCULATOR.display.value+='*'"></td>
+</tr>
+<td><input type="button" value="C"onclick="CALCULATOR.display.value=' '"></td>
+<td><input type="button" value="0"onclick="CALCULATOR.display.value+='0'"></td>
+<td><input type="button" value="="onclick="CALCULATOR.display.value=eval(CALCULATOR.display.value)"></td>
+<td><input type="button" value="/"onclick="CALCULATOR.display.value+='/'"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+
+
