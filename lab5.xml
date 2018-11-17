@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="stylecss1.css"?>
+<students>
+<student>
+	<name>Lavanya</name>
+	<college>vvce</college>
+	<usn>4vv15cs052</usn>
+	<year>4th year</year>
+	<branch>CSE</branch>
+	<email>lavanyakmurthy199716@gmail.com</email>
+</student>
+<student>
+	<name>Madhura.RS</name>
+	<college>vvce</college>
+	<usn>4vv15cs055</usn>
+	<year>4th year</year>
+	<branch>CSE</branch>
+	<email>madhura@gmail.com</email>
+</student>
+</students>
